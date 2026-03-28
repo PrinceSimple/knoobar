@@ -2,7 +2,6 @@ import path from "node:path";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 
-// @ts-expect-error provided by Node types at build time
 import process from "node:process";
 
 const host = process.env.TAURI_DEV_HOST;
